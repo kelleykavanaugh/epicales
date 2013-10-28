@@ -1,11 +1,5 @@
-    <div id="internal-footer">
-        <div class="row-fluid">
-            <div class="span12">
-            </div><!--/span-->
-        </div><!--end row fluid-->
-    </div><!--/internal-footer-->
-                    </div><!--/ content -->
-                </div> <!-- /container-fluid -->
+        </div><!--/ content -->
+            </div> <!-- /container-fluid -->
                 <div id="footer">
                     <div class="row-fluid">
                         <div class="span12">
@@ -19,7 +13,6 @@
                         </div><!--/ .span -->
                     </div><!--/ .row-fluid -->
                 </div><!--/footer-->
-            </div><!--/container-->
         <?php wp_footer(); ?>
     <!-- Le javascript
     ================================================== -->

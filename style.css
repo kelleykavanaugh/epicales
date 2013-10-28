@@ -72,34 +72,31 @@ li {
 }
 .container-header {
 	background-image: url("images/background_paper_top.jpg");
-	max-width: 1200px;
-	padding: 0 0 0 0;
+	background-repeat: no-repeat;
+	max-width: 1062px;
+	padding: 0 40px 0 40px;
 	margin: 0px auto 0px auto;
 	border: 0px solid #ff0000;
 }
 .container-fluid {
 	background-image: url("images/background_paper.jpg");
-	max-width: 1200px;
+	max-width: 1142px;
 	padding: 0 0 0 0;
 	margin: 0px auto 10px auto;
 	border: 0px solid #ff0000;
 }
 #content {
 	background-color: #FFF;
-	padding: 3% 3% 3% 3%;
+	padding: 0% 3% 0% 3%;
 	margin: 20px 20px 20px 20px;
 	border: 0px solid #ff0000;
 }
-#internal-footer {
-	font-size: 20px;
-	line-height: 1.5em;
-	padding: 10px 40px 10px 30px;
-}
 #footer {
-	color: #777777;
-	height: 20px;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 20px 0px 20px;
+	background-image: url("images/background_paper_bottom.jpg");
+	max-width: 1062px;
+	padding: 0px 40px 0 40px;
+	margin: 0px auto 0px auto;
+	border: 0px solid #ff0000;
 }
 #footer a, #footer a:hover, #footer a:active, #footer a:visited {
 	color: #777777;
