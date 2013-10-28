@@ -24,6 +24,7 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 body { 
 	background-image: url("images/background.jpg");
 	background-color: #000000;
+	font-family: 'Fenix', serif;
 	color: #000000;
 	text-align: justify;
 }
@@ -46,9 +47,20 @@ li {
 }
 /* End Universal Styles */
 /* Main Posts Styles */
-.logo {
-	display:block;
-	top:-80px;
+.tasting {
+	background: url('/images/transparent_white.png');
+	font-size: 1.7em;
+	font-weight: 100;
+	text-align: center;
+	color: #ab0c0e;
+	width: 400px;
+	height: 30px;
+	float: right;
+	padding: 10px 0 0 0 ;
+	background: rgba(255, 255, 255, 0.2);
+	-moz-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
+	box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 }
 .blogtitle {
 	padding: 60px 0 30px 10px;

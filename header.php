@@ -7,7 +7,7 @@
 
     <!-- Le styles -->
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Share+Tech|Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Share+Tech|Nothing+You+Could+Do|Fenix' rel='stylesheet' type='text/css'>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -21,6 +21,7 @@
   </head>
 <body>
     <div class="container-header">
+      <div class="tasting">Tasting Room Open Tue-Sat 4-10pm</div>
       <div class="blogtitle"><img src="wp-content/themes/epicales/images/epic-ales-logo.png" class="pull-left" title="<?php bloginfo('name'); ?>"/></div>
 <!-- NAVBAR -->
       <div class="navbar pull-right">
