@@ -25,7 +25,7 @@ body {
 	background-image: url("images/background.jpg");
 	background-color: #000000;
 	font-family: 'Fenix', serif;
-	color: #000000;
+	color: #3d2826;
 	text-align: justify;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -46,7 +46,7 @@ li {
 	list-style: none;
 }
 /* End Universal Styles */
-/* Main Posts Styles */
+/* Header Styles */
 .tasting {
 	background: url('/images/transparent_white.png');
 	font-size: 1.7em;
@@ -91,6 +91,8 @@ li {
 	margin: 0px auto 0px auto;
 	border: 0px solid #ff0000;
 }
+/*End Header Styles */
+/* Main Posts Styles */
 .container-fluid {
 	background-image: url("images/background_paper.jpg");
 	max-width: 922px;
@@ -103,11 +105,25 @@ li {
 	margin: 20px 20px 20px 20px;
 	border: 0px solid #ff0000;
 }
+/* End Main Posts Styles */
+
+/* Footer Styles */
+#footer-widget {
+
+}
+.membership {
+	text-align: center;
+	border-bottom: 5px solid #AB0C0E;
+}
+.contact-info {
+	text-align: center;
+	font-size: 1.7em;
+}
 #footer {
 	background-image: url("images/background_paper_bottom.jpg");
-	max-width: 1062px;
+	max-width: 922px;
 	min-height: 200px;
-	padding: 0px 40px 0 40px;
+	padding: 0 110px 0 110px;
 	margin: 0px auto 0px auto;
 	border: 0px solid #ff0000;
 }
@@ -117,7 +133,8 @@ li {
 #footer a:hover {
 	text-decoration: underline;
 }
-/* End Main Posts Styles */
+/* End Footer Styles */
+
 /* Navbar Styling */
 .navbar {
 	font-family: 'Share Tech', sans-serif;
