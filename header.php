@@ -7,7 +7,7 @@
 
     <!-- Le styles -->
     <link href="<?php bloginfo('stylesheet_url');?>" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Sancreek' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Share+Tech|Nothing+You+Could+Do' rel='stylesheet' type='text/css'>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
@@ -21,11 +21,9 @@
   </head>
 <body>
     <div class="container-header">
-      <div class="blogtitle"><?php bloginfo('name'); ?></div>
-      <div class="description"><?php bloginfo('description'); ?></div>
-
+      <div class="blogtitle"><img src="wp-content/themes/epicales/images/epic-ales-logo.png" class="pull-left" title="<?php bloginfo('name'); ?>"/></div>
 <!-- NAVBAR -->
-      <div class="navbar">
+      <div class="navbar pull-right">
         <div class="navbar-inner">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
@@ -41,5 +39,8 @@
         </div><!--/.navbar-inner -->
       </div><!--/.navbar" -->
 <!-- END NAVBAR -->
+      <div class="line pull-left"></div>
+      <div class="description pull-left"><?php bloginfo('description'); ?></div>
+
     </div><!--/ container-header-->
     <div class="container-fluid">
