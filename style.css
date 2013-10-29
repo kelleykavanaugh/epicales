@@ -32,7 +32,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
- 	text-align: center;
+}
+h1 {
+	color: #ab0c0e;
+	text-align: center;
 }
 a:link, a:visited,
 a:active {
@@ -40,10 +43,20 @@ a:active {
 	text-decoration: none;
 }
 a:hover {
-	color: #7a0000;
+	color: #ab0c0e;
 }
 li {
 	list-style: none;
+}
+.big {
+	color: #3d2826;
+	padding: 10px 0 10px 0;
+	margin: 0 0 0 0;
+	font-size: 1.8em;
+	line-height: 1.2em;
+}
+.row-fluid [class*="span"]{
+	min-height: 0px;
 }
 /* End Universal Styles */
 /* Header Styles */
@@ -55,15 +68,15 @@ li {
 	color: #ab0c0e;
 	width: 400px;
 	height: 30px;
-	float: right;
-	padding: 10px 0 0 0 ;
+	padding: 10px 0 0 0px;
+	margin: 0 0 0 0px;
 	background: rgba(255, 255, 255, 0.2);
 	-moz-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 	-webkit-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 	box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 }
 .blogtitle {
-	padding: 60px 0 30px 10px;
+	padding: 20px 0 0px 0px;
 	margin: 0 0 0 0;
 }
 .epic-ales-logo {
@@ -71,13 +84,6 @@ li {
 	width: 384px;
 	height: 94px;
 	display: block;
-}
-.line {
-	background-image: url("images/line.png");
-	display: block;
-	height: 5px;
-	width: 929px;
-	margin: 10px 0 0 0;
 }
 .description {
 	font-family: 'Nothing You Could Do', cursive;
@@ -99,6 +105,15 @@ li {
 }
 /*End Header Styles */
 /* Main Posts Styles */
+#beers-list {
+	font-family: 'Share Tech', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	color:#AB0C0E;
+	padding: 20px 0 20px 0;
+	text-transform: uppercase;
+	text-align: center;
+}
 .container-fluid {
 	background-image: url("images/background_paper.jpg");
 	max-width: 922px;
@@ -107,9 +122,15 @@ li {
 	border: 0px solid #ff0000;
 }
 #content {
-	padding: 0% 3% 0% 3%;
-	margin: 20px 20px 20px 20px;
 	border: 0px solid #ff0000;
+}
+.white-bg {
+	padding: 40px 40px 40px 40px;
+	margin: 30px 40px 0 40px;
+	background: rgba(255, 255, 255, 0.2);
+	-moz-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
+	box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 }
 /* End Main Posts Styles */
 
@@ -163,7 +184,7 @@ li {
 	border: 0px;
 }
 .navbar .navbar-inner {
-	font-size: 20px;
+	font-size: 22px;
 	text-transform: uppercase;
 	background-color: transparent;
 	background-image: none;
@@ -178,25 +199,30 @@ li {
 	padding-left: 0px;
 	margin: 0 auto 0 auto;
 }
+.navlist {
+	padding: 90px 0 0px 0px;
+	margin: 0 0 0 0;
+}
 .navbar .brand,
 .navbar .nav > li > a {
 	color: #000000;
+	font-weight: bold;
 	text-shadow: none;
-	padding: 0 25px 0 25px;
+	padding: 0 5px 0 5px;
+	letter-spacing: -2px;
 }
 
 .navbar .brand:hover,
 .navbar .nav > li > a:hover,
 .navbar .brand:focus,
 .navbar .nav > li > a:focus {
-	color: #8a8a8a;
+	color: #ab0c0e;
 	text-shadow: none;
 	text-decoration: underline;
 }
 .navbar .brand {
 	color: #000000;
 	text-shadow: none;
-	border-right: 2px dashed #000000; /* add border-right on first nav button left */
 }
 .navbar .navbar-text {
 	color: #000000;
@@ -208,10 +234,6 @@ li {
 	border-radius: 0px;
 	padding: 0 0 0 0;
 	margin: 0 0 0 0;
-	border-left: 2px dashed #000000;
-}
-.nav li:first-child {
-	border: 0px; /* remove border-left on first nav button right */
 }
 /* End Navbar Styles */
 

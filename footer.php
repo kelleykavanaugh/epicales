@@ -12,9 +12,17 @@
                     </div><!--/ .row-fluid -->
                 </div><!--/footer-->
                 <div class="under-footer">
-                <center>
-                    <strong><a href="http://wordpress.org/">Wordpress</a></strong> Theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a>. Based on design by <a href="http://www.plexicoda.com/">Plexicoda</a></strong>.
-                </center>
+                    <div class="row-fluid">
+                        <div class="span6">
+                            <center>
+                            <strong><a href="http://wordpress.org/">Wordpress</a></strong> Theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a>.
+                            </center>
+                        </div>
+                        <div class="span6">
+                            <center>
+                            Based on design by <a href="http://www.plexicoda.com/">Plexicoda</a></strong>.
+                            </center>
+                        </div>
                 </div><!--/under footer-->
         <?php wp_footer(); ?>
     <!-- Le javascript

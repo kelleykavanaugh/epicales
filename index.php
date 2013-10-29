@@ -2,8 +2,9 @@
       <div class="row-fluid">
         <div class="span12">
           <!-- Start The Loop -->
+          <?php query_posts('category_name=news'); ?>
           <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-              <div id="content">
+              <div id="content" class="white-bg">
                 <h1><?php the_title(); ?></a></h1>
                 <?php the_content() ?>
               </div><!--/content-->

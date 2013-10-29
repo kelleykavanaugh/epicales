@@ -21,29 +21,40 @@
   </head>
 <body>
     <div class="container-header">
-      <div class="tasting">Tasting Room Open Tue-Sat 4-10pm</div>
-      <div class="blogtitle pull-left">
-        <a href="<?php echo get_option('home'); ?>/" class="epic-ales-logo"></a>
-      </div>
+      <div class="row-fluid">
+        <div class="span12"> 
+          <div class="tasting pull-right">Tasting Room Open Tue-Sat 4-10pm</div>
+        </div><!--/span-->
+      </div><!--/row-->
 <!-- NAVBAR -->
-      <div class="navbar pull-right">
+      <div class="navbar">
         <div class="navbar-inner">
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="<?php echo site_url(); ?>">home</a>
+          <div class="blogtitle pull-left">
+            <a href="<?php echo get_option('home'); ?>/" class="epic-ales-logo"></a>
+          </div>
           <div class="nav-collapse collapse">
-            <ul class="nav">
+            <ul class="nav navlist pull-right">
             <?php wp_list_pages(array('title_li' => '', 'exclude' => 117)); ?>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.navbar-inner -->
       </div><!--/.navbar" -->
 <!-- END NAVBAR -->
-      <div class="line pull-left"></div>
-      <div class="description pull-left"><?php bloginfo('description'); ?></div>
+      <div class="row-fluid">
+        <div class="span12"> 
+          <img src="<?php echo get_option('home'); ?>/wp-content/themes/epicales/images/line.png">
+        </div><!--/span-->
+      </div><!--/row-->
+      <div class="row-fluid">
+        <div class="span12"> 
+          <div class="description"><?php bloginfo('description'); ?></div>
+        </div><!--/span-->
+      </div><!--/row-->  
 
     </div><!--/ container-header-->
     <div class="container-fluid">

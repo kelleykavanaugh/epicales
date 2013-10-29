@@ -1,4 +1,5 @@
-    <?php get_header(); ?>
+    <?php /* Template Name: Beers */
+    get_header(); ?>
       <div class="row-fluid">
         <div class="span12">
           <!-- Start The Loop -->
