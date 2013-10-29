@@ -22,9 +22,9 @@ if (function_exists("register_sidebar")) {
 }
 if (function_exists("register_sidebar")) {
   register_sidebar(array(
-    'name' => 'widget-footer',
-	'before_widget' => '<div class="span4">',
-	'after_widget'  => '</div>',
+    'name' => 'footer-widget',
+	'before_widget' => '',
+	'after_widget'  => '',
     'before_title' => '<h3>',
     'after_title' => '</h3>',
 ));

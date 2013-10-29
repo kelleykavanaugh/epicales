@@ -23,9 +23,9 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 /* Universal Styles */
 body { 
 	background-image: url("images/background.jpg");
-	background-color: #000000;
+	background-color: #FFFFFF;
 	font-family: 'Fenix', serif;
-	color: #000000;
+	color: #3d2826;
 	text-align: justify;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -46,7 +46,7 @@ li {
 	list-style: none;
 }
 /* End Universal Styles */
-/* Main Posts Styles */
+/* Header Styles */
 .tasting {
 	background: url('/images/transparent_white.png');
 	font-size: 1.7em;
@@ -91,11 +91,13 @@ li {
 	margin: 0px auto 0px auto;
 	border: 0px solid #ff0000;
 }
+/*End Header Styles */
+/* Main Posts Styles */
 .container-fluid {
 	background-image: url("images/background_paper.jpg");
 	max-width: 922px;
-	padding: 0 110px 0 110px;
-	margin: 0px auto 10px auto;
+	padding: 0 110px 60px 110px;
+	margin: 0px auto 0px auto;
 	border: 0px solid #ff0000;
 }
 #content {
@@ -103,21 +105,48 @@ li {
 	margin: 20px 20px 20px 20px;
 	border: 0px solid #ff0000;
 }
+/* End Main Posts Styles */
+
+/* Footer Styles */
+.membership {
+	text-align: center;
+	border-bottom: 5px solid #AB0C0E;
+}
+.contact-info {
+	text-align: center;
+	font-size: 1.7em;
+	padding: 5px 0 10px 0;
+	border-top: 1px solid #AB0C0E;
+}
+.copyright {
+	color:#AB0C0E;
+	padding: 20px 0 20px 0;
+}
 #footer {
 	background-image: url("images/background_paper_bottom.jpg");
-	max-width: 1062px;
+	max-width: 922px;
 	min-height: 200px;
-	padding: 0px 40px 0 40px;
+	padding: 0 110px 0 110px;
 	margin: 0px auto 0px auto;
 	border: 0px solid #ff0000;
 }
 #footer a, #footer a:hover, #footer a:active, #footer a:visited {
-	color: #777777;
+	color: #3d2826;
 }
 #footer a:hover {
+	color: #ab0c0e;
 	text-decoration: underline;
 }
-/* End Main Posts Styles */
+.under-footer, .under-footer a {
+	padding: 10px 0 10px 0;
+	color: #FFFFFF;
+}
+.under-footer a:hover {
+	color:#AB0C0E;
+	text-decoration: underline;
+}
+/* End Footer Styles */
+
 /* Navbar Styling */
 .navbar {
 	font-family: 'Share Tech', sans-serif;
@@ -223,6 +252,10 @@ li {
 	}
 	.content {
 		margin: 0 0 0 0;
+	}
+	#footer {
+		margin: 0 0 0 0;
+		padding: 0 10px 0 10px;
 	}
 }
 /* Landscape phones and down */
