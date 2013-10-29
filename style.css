@@ -48,7 +48,7 @@ li {
 /* End Universal Styles */
 /* Header Styles */
 .tasting {
-	background: url('/images/transparent_white.png');
+	background: url('images/transparent_white.png');
 	font-size: 1.7em;
 	font-weight: 100;
 	text-align: center;
@@ -65,6 +65,12 @@ li {
 .blogtitle {
 	padding: 60px 0 30px 10px;
 	margin: 0 0 0 0;
+}
+.epic-ales-logo {
+	background: url('images/epic-ales-logo.png');
+	width: 384px;
+	height: 94px;
+	display: block;
 }
 .line {
 	background-image: url("images/line.png");

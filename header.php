@@ -22,7 +22,9 @@
 <body>
     <div class="container-header">
       <div class="tasting">Tasting Room Open Tue-Sat 4-10pm</div>
-      <div class="blogtitle"><img src="wp-content/themes/epicales/images/epic-ales-logo.png" class="pull-left" title="<?php bloginfo('name'); ?>"/></div>
+      <div class="blogtitle pull-left">
+        <a href="<?php echo get_option('home'); ?>/" class="epic-ales-logo"></a>
+      </div>
 <!-- NAVBAR -->
       <div class="navbar pull-right">
         <div class="navbar-inner">
