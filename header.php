@@ -34,7 +34,7 @@
           <a class="brand" href="<?php echo site_url(); ?>">home</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-            <?php wp_list_pages(array('title_li' => '', 'exclude' => 4)); ?>
+            <?php wp_list_pages(array('title_li' => '', 'exclude' => 117)); ?>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.navbar-inner -->

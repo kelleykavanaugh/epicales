@@ -1,21 +1,21 @@
         </div><!--/ content -->
             </div> <!-- /container-fluid -->
                 <div id="footer">
-                    <div id="footer-widget">
                     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-widget') ) : ?>
                     <?php endif; ?>
-                    </div><!--/footer-widget-->
                     <div class="row-fluid">
                         <div class="span12">
-                            <div class="pull-left">
-                                <small><em><strong><a href="http://wordpress.org/">Wordpress</a></strong> Theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a></strong>
-                            </div><!--/. pull-left-->
-                            <div class="pull-right">
-                                <small><em>&copy; 2013 <strong><?php bloginfo('name'); ?></div></strong></em></small>
-                            </div><!--/ .pull-right -->
+                            <center>
+                            <div class="copyright">&copy; 2013 <strong><?php bloginfo('name'); ?>. All Rights Reserved.</strong></div>
+                            </center>
                         </div><!--/ .span -->
                     </div><!--/ .row-fluid -->
                 </div><!--/footer-->
+                <div class="under-footer">
+                <center>
+                    <strong><a href="http://wordpress.org/">Wordpress</a></strong> Theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a>. Based on design by <a href="http://www.plexicoda.com/">Plexicoda</a></strong>.
+                </center>
+                </div><!--/under footer-->
         <?php wp_footer(); ?>
     <!-- Le javascript
     ================================================== -->
