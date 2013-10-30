@@ -86,7 +86,6 @@ p {
 	padding: 0 0 0 0;
 }
 .border-bottom {
-	padding-bottom: 30px;
 	border-bottom: 3px solid #3d2826;
 }
 .white-bg {
@@ -94,6 +93,13 @@ p {
 	-moz-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 	-webkit-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 	box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
+}
+img.white-bg {
+	background: rgba(255, 255, 255, 0.2);
+	-moz-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
+	-webkit-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
+	box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
+	padding: 20px 20px 20px 20px;
 }
 /* End Universal Styles */
 /* Background Styles */
@@ -115,13 +121,13 @@ p {
 }
 #content {
 	padding: 5% 5% 5% 5%;
-	margin: 0px 40px 0 40px;
+	margin: 0px 40px 40px 40px;
 }
 #anchors {
 	font-size: 1.2em;
-	line-height: 1em;
+	line-height: 1.2em;
 	text-align: center;
-	display: inline;
+	display: inline-block;
 	margin: 10px 10px 10px 10px;
 }
 #center {
