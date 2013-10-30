@@ -1,21 +1,31 @@
-        </div><!--/ content -->
+                </div><!--/ content -->
             </div> <!-- /container-fluid -->
+
+            <div class="container-fluid footer-bg">
                 <div id="footer">
                     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-widget') ) : ?>
                     <?php endif; ?>
                     <div class="row-fluid">
-                        <div class="span12">
-                            <center>
-                            <div class="copyright">&copy; 2013 <strong><?php bloginfo('name'); ?>. All Rights Reserved.</strong></div>
-                            </center>
+                        <div id="center" class="span12">
+                            &copy; 2013 <strong><?php bloginfo('name'); ?>. All Rights Reserved.</strong>
                         </div><!--/ .span -->
                     </div><!--/ .row-fluid -->
                 </div><!--/footer-->
-                <div class="under-footer">
-                <center>
-                    <strong><a href="http://wordpress.org/">Wordpress</a></strong> Theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a>. Based on design by <a href="http://www.plexicoda.com/">Plexicoda</a></strong>.
-                </center>
-                </div><!--/under footer-->
+            </div><!--/container-fluid-->
+
+            <div class="container-fluid">    
+                <div class="row-fluid">
+                    <div class="span6 padding white">
+                        <strong><a href="http://wordpress.org/">Wordpress</a></strong> Theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a>.
+                    </div><!--/span-->
+                    <div class="span6 padding white">
+                        <div class="pull-right">
+                        Based on design by <a href="http://www.plexicoda.com/">Plexicoda</a></strong>.
+                        </div><!--/pull-right-->
+                    </div><!--/span-->
+                </div><!--/row-fluid-->
+            </div><!--container-->
+
         <?php wp_footer(); ?>
     <!-- Le javascript
     ================================================== -->
