@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1, h1 a {
 	color: #ab0c0e;
+	text-align: center;
 }
 a:link, a:visited,
 a:active {
@@ -95,11 +96,11 @@ p {
 	box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 }
 img.white-bg {
+	padding: 20px 20px 20px 20px;
 	background: rgba(255, 255, 255, 0.2);
 	-moz-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 	-webkit-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 	box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
-	padding: 20px 20px 20px 20px;
 }
 /* End Universal Styles */
 /* Background Styles */

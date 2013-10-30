@@ -28,7 +28,7 @@
           <!-- Start The Loop -->
           <?php query_posts('category_name=beers'); ?>
           <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-              <div id="content" class="border-bottom">
+              <div id="content" class="white-bg">
                 <div id="<?php the_title_attribute(); ?>"><h1><?php the_title(); ?></h1></div>
                 <?php the_content() ?>
               </div><!--/content-->
