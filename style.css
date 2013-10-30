@@ -28,15 +28,18 @@ body {
 	color: #3d2826;
 	text-align: justify;
 }
+.robot-font {
+	font-family: 'Share Tech', sans-serif;
+}
+.cursive-font {
+	font-family: 'Nothing You Could Do', cursive;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
+	text-align: none;
 }
-h1 {
-	padding: 20px 0 20px 0;
+h1, h1 a {
 	color: #ab0c0e;
-	text-align: center;
 }
 a:link, a:visited,
 a:active {
@@ -45,6 +48,7 @@ a:active {
 }
 a:hover {
 	color: #ab0c0e;
+	text-decoration: none;
 }
 li {
 	list-style: none;
@@ -54,105 +58,75 @@ p {
 	line-height: 1.2em;
 }
 .big {
-	color: #3d2826;
-	padding: 10px 0 10px 0;
-	margin: 0 0 0 0;
 	font-size: 1.8em;
 	line-height: 1.2em;
 }
-.row-fluid [class*="span"]{
-	min-height: 0px;
+.red, .red a {
+	color: #ab0c0e;
+}
+.red a:hover {
+	color: #3d2826; /*brown*/
+}
+.brown, .brown a {
+	color: #3d2826;
+}
+.brown a:hover {
+	color: #ab0c0e; /*red*/
+}
+.white, .white a {
+	color: #FFFFFF;
+}
+.white a:hover {
+	color: #ab0c0e; /*red*/
+}
+.padding {
+	padding: 10px 20px 10px 20px;
+}
+.no-padding {
+	padding: 0 0 0 0;
 }
 .border-bottom {
-	padding: 0 0 30px 0;
+	padding-bottom: 30px;
 	border-bottom: 3px solid #3d2826;
 }
-/* End Universal Styles */
-/* Header Styles */
-.tasting {
-	background: url('images/transparent_white.png');
-	font-size: 1.7em;
-	font-weight: 100;
-	text-align: center;
-	color: #ab0c0e;
-	width: 400px;
-	height: 30px;
-	padding: 10px 0 0 0px;
-	margin: 0 0 0 0px;
+.white-bg {
 	background: rgba(255, 255, 255, 0.2);
 	-moz-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 	-webkit-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 	box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 }
-.blogtitle {
-	padding: 20px 0 0px 0px;
-	margin: 0 0 0 0;
-}
-.epic-ales-logo {
-	background: url('images/epic-ales-logo.png');
-	width: 384px;
-	height: 94px;
-	display: block;
-}
-.description {
-	font-family: 'Nothing You Could Do', cursive;
-	color: #692819;
-	font-size: 1.75em;
-	letter-spacing: 0.1em;
-	line-height: 1em;
-	padding: 0 0 0 10px;
-	margin: 10px 0 0 0;
-}
-.container-header {
+/* End Universal Styles */
+/* Background Styles */
+.header-bg {
 	background-image: url("images/background_paper_top.jpg");
-	background-repeat: no-repeat;
-	max-width: 922px;
-	min-height: 200px;
-	padding: 0 110px 0 110px;
-	margin: 0px auto 0px auto;
-	border: 0px solid #ff0000;
+}
+.body-bg {
+	background-image: url("images/background_paper.jpg");
+}
+.footer-bg {
+	background-image: url("images/background_paper_bottom.jpg");
 }
 /*End Header Styles */
 /* Main Posts Styles */
-#beers-list {
-	font-family: 'Share Tech', sans-serif;
-	font-size: 1.5em;
-	font-weight: bold;
-	color:#AB0C0E;
-	padding: 0px 0 0px 0;
-	margin: 0 0 0 0;
-	text-transform: uppercase;
-	text-align: center;
-}
-#brewery-list {
-	font-size: 1.2em;
-	line-height: 1em;
-	color:#AB0C0E;
-	text-align: center;
-	padding: 10px 20px 10px 20px;
-	margin: 10px 30px 0 0;
-	display: inline;
-	background: rgba(255, 255, 255, 0.2);
-	-moz-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
-	-webkit-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
-	box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
-}
 .container-fluid {
-	background-image: url("images/background_paper.jpg");
 	max-width: 922px;
-	padding: 0 110px 60px 110px;
+	padding: 0 110px 0px 110px;
 	margin: 0px auto 0px auto;
-	border: 0px solid #ff0000;
 }
 #content {
-}
-.white-bg {
 	padding: 5% 5% 5% 5%;
-	margin: 30px 40px 0 40px;
-	background: rgba(255, 255, 255, 0.2);
-	-moz-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
-	-webkit-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
-	box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
+	margin: 0px 40px 0 40px;
+}
+#anchors {
+	font-size: 1.2em;
+	line-height: 1em;
+	text-align: center;
+	display: inline;
+	margin: 10px 10px 10px 10px;
+}
+#center {
+	text-align: center;
+	margin: 0 auto 0 auto;
 }
 /* End Main Posts Styles */
 
@@ -166,33 +140,6 @@ p {
 	font-size: 1.7em;
 	padding: 5px 0 10px 0;
 	border-top: 1px solid #AB0C0E;
-}
-.copyright {
-	color:#AB0C0E;
-	padding: 20px 0 20px 0;
-}
-#footer {
-	background-image: url("images/background_paper_bottom.jpg");
-	max-width: 922px;
-	min-height: 200px;
-	padding: 0 110px 0 110px;
-	margin: 0px auto 0px auto;
-	border: 0px solid #ff0000;
-}
-#footer a, #footer a:hover, #footer a:active, #footer a:visited {
-	color: #3d2826;
-}
-#footer a:hover {
-	color: #ab0c0e;
-	text-decoration: underline;
-}
-.under-footer, .under-footer a {
-	padding: 10px 0 10px 0;
-	color: #FFFFFF;
-}
-.under-footer a:hover {
-	color:#AB0C0E;
-	text-decoration: underline;
 }
 /* End Footer Styles */
 
