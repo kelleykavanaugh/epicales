@@ -1,10 +1,10 @@
-    <?php get_header(); ?>
+    <?php /*Template Name: Contact */
+    get_header(); ?>
       <div class="row-fluid">
         <div class="span12">
           <!-- Start The Loop -->
           <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-              <div id="content">
-                <h1><?php the_title(); ?></h1>
+              <div id="content" class="white-bg">
                 <?php the_content() ?>
               </div><!--/content-->
           <?php endwhile; else: ?>

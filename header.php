@@ -28,15 +28,15 @@
       </div><!--/row-->
 <!-- NAVBAR -->
       <div class="navbar">
-        <div class="navbar-inner">
+        <div class="navbar-inner navbar-inverse">
+          <div class="blogtitle pull-left">
+            <a href="<?php echo get_option('home'); ?>/" class="epic-ales-logo"></a>
+          </div>
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <div class="blogtitle pull-left">
-            <a href="<?php echo get_option('home'); ?>/" class="epic-ales-logo"></a>
-          </div>
           <div class="nav-collapse collapse">
             <ul class="nav navlist pull-right">
             <?php wp_list_pages(array('title_li' => '', 'exclude' => 117)); ?>
