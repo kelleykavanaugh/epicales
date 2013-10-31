@@ -23,7 +23,10 @@
     <div class="container-fluid header-bg">
       <div class="row-fluid">
         <div class="span12"> 
-          <div class="big red white-bg padding pull-right">Tasting Room Open Tue-Sat 4-10pm</div>
+          <div class="pull-right">
+            <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('tasting') ) : ?>
+            <?php endif; ?>
+          </div>
         </div><!--/span-->
       </div><!--/row-->
 

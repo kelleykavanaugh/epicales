@@ -15,7 +15,7 @@ add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
 
 if (function_exists("register_sidebar")) {
   register_sidebar(array(
-    'name' => 'sidebar',
+    'name' => 'tasting',
     'before_title' => '<h2>',
     'after_title' => '</h2>',
 ));
