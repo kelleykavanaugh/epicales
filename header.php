@@ -23,7 +23,7 @@
     <div class="container-fluid header-bg">
       <div class="row-fluid">
         <div class="span12"> 
-          <div class="pull-right">
+          <div class="margin-bottom pull-right">
             <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('tasting') ) : ?>
             <?php endif; ?>
           </div>

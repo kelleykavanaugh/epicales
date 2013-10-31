@@ -33,6 +33,7 @@ body {
 }
 .cursive-font {
 	font-family: 'Nothing You Could Do', cursive;
+	text-align: left;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
@@ -89,6 +90,9 @@ p {
 .border-bottom {
 	border-bottom: 3px solid #3d2826;
 }
+.margin-bottom {
+	margin-bottom: 10px;
+}
 .white-bg {
 	background: rgba(255, 255, 255, 0.2);
 	-moz-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
@@ -121,7 +125,7 @@ img.white-bg {
 	margin: 0px auto 0px auto;
 }
 #content {
-	padding: 5% 5% 5% 5%;
+	padding: 3% 3% 3% 3%;
 	margin: 0px 40px 40px 40px;
 }
 #anchors {
@@ -216,6 +220,14 @@ img.white-bg {
 	border: 0px solid #777777; /*hide border */
 	}
 /* End Drop Down Styles */
+	.container-fluid {
+	max-width: 962px;
+	padding: 0 70px 0px 70px;
+	}
+	#content {
+	padding: 1% 1% 1% 1%;
+	margin: 0 0 30px 0;
+	}
 }
 @media (min-width: 768px) {
 }
@@ -225,20 +237,17 @@ img.white-bg {
 	padding: 0 0 0 0;
 	}
 	.container-fluid {
-		margin: 0 0 0 0;
-		padding: 0 0 0 0;
+	max-width: 842px;
+	padding: 0 10px 0px 10px;
 	}
-	.container-header {
-		margin: 0 0 0 0;
-		padding: 0 0 0 0;
-	}
-	.content {
-		margin: 0 0 0 0;
-	}
-	#footer {
-		margin: 0 0 0 0;
-		padding: 0 10px 0 10px;
-	}
+	/*center all images */
+	img.alignright {display: block; clear:both; float: none; margin-left: auto; margin-right: auto}
+	img.alignleft {display: block; clear:both; float: none; margin-left: auto; margin-right: auto}
+	img.aligncenter {display: block; clear:both; float: none; margin-left: auto; margin-right: auto}
+	a img.alignright {display: block; clear:both; float: none; margin-left: auto; margin-right: auto}
+	a img.alignleft {display: block; clear:both; float: none; margin-left: auto; margin-right: auto}
+	a img.aligncenter {display: block; clear:both; float: none; margin-left: auto; margin-right: auto}
+	img.white-bg {padding: 0px 0px 0px 0px; width: 100%; height: 100%}
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
