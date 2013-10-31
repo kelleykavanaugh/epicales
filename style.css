@@ -152,96 +152,70 @@ img.white-bg {
 
 /* Navbar Styling */
 .navbar {
-	font-family: 'Share Tech', sans-serif;
+	font-size: 22px;
 	font-weight: bold;
-	padding: 0 0 0 0;
+	text-transform: uppercase;
+	padding: 50px 0 0 0;
 	margin: 0 0 0 0;
-	color: #FFF;
-	border: 0px;
+	vertical-align: bottom;
 }
 .navbar .navbar-inner {
-	font-size: 22px;
-	text-transform: uppercase;
-	background-color: transparent;
-	background-image: none;
-	background-repeat: no-repeat;
-	box-shadow: none;
-	-webkit-box-shadow: none;
-	border: 0px solid #fff600;
-	border-radius: 0px;
-    line-height: 1em;
-	min-height: 20px;
-	padding-right: 0px;
-	padding-left: 0px;
-	margin: 0 auto 0 auto;
+	background-color: transparent;/*bs override */
+	background-image: none;/*bs override */
+	background-repeat: no-repeat;/*bs override */
+	box-shadow: none;/*bs override */
+	-webkit-box-shadow: none;/*bs override */
+	border: 0px solid #fff;/*bs override */
+	border-radius: 0px;/*bs override */
 }
-.navlist {
-	padding: 90px 0 0px 0px;
-	margin: 0 0 0 0;
-}
-.navbar .brand,
 .navbar .nav > li > a {
 	color: #000000;
 	font-weight: bold;
-	text-shadow: none;
+	text-shadow: none;/*bs override */
 	padding: 0 5px 0 5px;
 	letter-spacing: -2px;
 }
-
-.navbar .brand:hover,
 .navbar .nav > li > a:hover,
-.navbar .brand:focus,
 .navbar .nav > li > a:focus {
 	color: #ab0c0e;
-	text-shadow: none;
+	text-shadow: none;/*bs override */
 	text-decoration: underline;
 }
-.navbar .brand {
-	color: #000000;
-	text-shadow: none;
-}
-.navbar .navbar-text {
-	color: #000000;
-	text-shadow: none;
-}
-.nav li {
-	background-color: transparent;
-	color: #000000;
-	border-radius: 0px;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
-}
-/* End Navbar Styles */
 
-/* Drop Down Styles */
+
+
 .navbar .nav-collapse .nav > li > a:hover,
 .navbar .nav-collapse .nav > li > a:focus,
 .navbar .nav-collapse .dropdown-menu a:hover,
 .navbar .nav-collapse .dropdown-menu a:focus {
 	background-color: transparent;
 	text-decoration: underline;
-}
-/* End Drop Down Styles */
+}/* End Navbar Styles */
+
 /* For Responsive Things */
 /* Large desktop */
 @media (min-width: 1200px) {
 }
 /* Portrait tablet to landscape and desktop */
 @media (max-width: 979px) {
-	.nav-collapse .nav > li > a, /*override bootstrap */
+/* Drop Down Styles */
+	.navbar-inverse .nav-collapse .nav > li > a, /*override bootstrap */
 	.nav-collapse .dropdown-menu a {
 	padding: 0px 0px 0px 20px;
-	font-weight: normal;
+	color: #000000;
+	font-weight: bold;
 	-webkit-border-radius: 0px;
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 	}
+	.navbar-inverse .nav-collapse .nav > li > a:hover, /*hover on dropdown */
+	.nav-collapse .dropdown-menu a:hover {
+	color: #ab0c0e;
+	}
 	.nav li, .navbar .brand {
 	border: 0px solid #777777; /*hide border */
 	}
-	.nav-collapse .nav {
-	margin: 0 0 0 0;
-	}
+/* End Drop Down Styles */
 }
 @media (min-width: 768px) {
 }
