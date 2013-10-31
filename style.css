@@ -13,13 +13,39 @@ Tags: responsive, bootstrap, 1 columns, black, white, red, simple, clean, sideba
 @import url('bootstrap/css/bootstrap-responsive.css');
 
 /* wordpress image styles */
-img.alignright {float:right; margin:0 0 1em 1em}
-img.alignleft {float:left; margin:0 1em 1em 0}
+img.alignright {float:right; margin:0 0 0em 0em}
+img.alignleft {float:left; margin:0 0em 0em 0}
 img.aligncenter {display: block; margin-left: auto; margin-right: auto}
-a img.alignright {float:right; margin:0 0 1em 1em}
-a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.alignright {float:right; margin:0 0 0em 0em}
+a img.alignleft {float:left; margin:0 0em 0em 0}
 a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 /* End wordpress image styles */
+
+/* wordpress caption styles */
+.wp-caption { position:relative }
+p.wp-caption-text { display:none; }
+.wp-caption:hover p.wp-caption-text {
+	font-size: 12pt;
+	line-height: 1.2em;
+	text-align: left;
+	color: #ffcc33;
+	display:block;
+	position:absolute;
+	bottom:-1px;
+	left:0px;
+	padding: 0 5% 5% 5%;
+	margin: 0 0 0 0;
+	width: 90%;
+	background: rgba(000, 000, 000, 0.1);
+}
+.wp-caption.alignleft {
+	float: left;
+	clear: none;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+/*End Wordpress caption Styles */
+
 /* Universal Styles */
 body { 
 	background-image: url("images/background.jpg");

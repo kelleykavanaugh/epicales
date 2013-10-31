@@ -1,30 +1,29 @@
-                </div><!--/ content -->
-            </div> <!-- /container-fluid -->
-
-            <div class="container-fluid footer-bg">
-                <div id="footer">
-                    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-widget') ) : ?>
-                    <?php endif; ?>
-                    <div class="row-fluid">
-                        <div id="center" class="span12">
-                            &copy; 2013 <strong><?php bloginfo('name'); ?>. All Rights Reserved.</strong>
-                        </div><!--/ .span -->
-                    </div><!--/ .row-fluid -->
-                </div><!--/footer-->
-            </div><!--/container-fluid-->
-
-            <div class="container-fluid">    
-                <div class="row-fluid">
-                    <div class="span6 padding white">
-                        <strong><a href="http://wordpress.org/">Wordpress</a></strong> Theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a>.
-                    </div><!--/span-->
-                    <div class="span6 padding white">
-                        <div class="pull-right">
-                        Based on design by <a href="http://www.plexicoda.com/">Plexicoda</a></strong>.
-                        </div><!--/pull-right-->
-                    </div><!--/span-->
-                </div><!--/row-fluid-->
-            </div><!--container-->
+-                </div><!--/ content -->
+-            </div> <!-- /container-fluid -->
+-
+-            <div class="container-fluid footer-bg">
+                 <div id="footer">
+                     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-widget') ) : ?>
+                     <?php endif; ?>
+@@ -11,11 +7,9 @@
+                         </div><!--/ .span -->
+                     </div><!--/ .row-fluid -->
+                 </div><!--/footer-->
+-            </div><!--/container-fluid-->
+-
+-            <div class="container-fluid">
++
+                 <div class="row-fluid">
+-                    <div class="span6 padding white">
++                    <div class="span6 padding">
+                         <strong><a href="http://wordpress.org/">Wordpress</a></strong> Theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelle
+                     </div><!--/span-->
+                     <div class="span6 padding white">
+@@ -24,7 +18,6 @@
+                         </div><!--/pull-right-->
+                     </div><!--/span-->
+                 </div><!--/row-fluid-->
+-            </div><!--container-->
 
         <?php wp_footer(); ?>
     <!-- Le javascript
