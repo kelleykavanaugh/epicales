@@ -27,25 +27,26 @@
         </div><!--/span-->
       </div><!--/row-->
 
+        <div class="pull-left">
+          <a href="<?php echo get_option('home'); ?>/"><img src="<?php echo get_option('home'); ?>/wp-content/themes/epicales/images/epic-ales-logo.png"></a>
+        </div>
 <!-- NAVBAR -->
-      <div class="navbar">
+      <div class="navbar robot-font">
         <div class="navbar-inner navbar-inverse">
-          <div class="pull-left">
-            <a href="<?php echo get_option('home'); ?>/"><img src="<?php echo get_option('home'); ?>/wp-content/themes/epicales/images/epic-ales-logo.png"></a>
-          </div>
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
           <div class="nav-collapse collapse">
-            <ul class="nav robot-font pull-right">
+            <ul class="nav pull-right">
             <?php wp_list_pages(array('title_li' => '', 'exclude' => 117)); ?>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.navbar-inner -->
       </div><!--/.navbar" -->
 <!-- END NAVBAR -->
+
       <div class="row-fluid">
         <div class="span12"> 
           <img src="<?php echo get_option('home'); ?>/wp-content/themes/epicales/images/line.png">
