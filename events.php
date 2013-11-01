@@ -4,7 +4,9 @@
         <div class="span12"> 
           <br>
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+          <div id="content">
           <?php the_content() ?>
+          </div><!--/content-->
             <?php endwhile; ?>
             <?php endif; ?>
             <?php wp_reset_query(); ?>

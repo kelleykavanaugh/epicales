@@ -1,8 +1,9 @@
-                </div><!--/ content -->
-            </div> <!-- /container-fluid -->
-
+        </div> <!-- /container-fluid -->
+    </div><!--/Wrap-->
+</div><!--/contain-->
+ <div id="footer">
             <div class="container-fluid footer-bg">
-                <div id="footer">
+               
                     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-widget') ) : ?>
                     <?php endif; ?>
                     <div class="row-fluid">
@@ -10,10 +11,10 @@
                             &copy; 2013 <strong><?php bloginfo('name'); ?>. All Rights Reserved.</strong>
                         </div><!--/ .span -->
                     </div><!--/ .row-fluid -->
-                </div><!--/footer-->
+                
             </div><!--/container-fluid-->
 
-            <div class="container-fluid">    
+            <div class="container-fluid under-footer">    
                 <div class="row-fluid">
                     <div class="span6 padding white">
                         <strong><a href="http://wordpress.org/">Wordpress</a></strong> Theme by <strong><a href="http://www.kelleykavanaugh.com/">Kelley Kavanaugh</a>.
@@ -25,7 +26,7 @@
                     </div><!--/span-->
                 </div><!--/row-fluid-->
             </div><!--container-->
-
+</div><!--/footer-->
         <?php wp_footer(); ?>
     <!-- Le javascript
     ================================================== -->

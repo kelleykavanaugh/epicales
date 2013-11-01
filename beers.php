@@ -4,7 +4,9 @@
       <div class="row-fluid">
         <div class="span12"> 
           <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+          <div id="content">
           <?php the_content() ?>
+          </div><!--/content-->
           <?php endwhile; endif; ?>
           <?php wp_reset_query(); ?>
         </div><!--/ .span -->

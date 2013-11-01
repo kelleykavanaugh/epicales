@@ -20,6 +20,7 @@ a img.alignright {float:right; margin:0 0 1em 1em}
 a img.alignleft {float:left; margin:0 1em 1em 0}
 a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 /* End wordpress image styles */
+
 /* Universal Styles */
 body { 
 	background-image: url("images/background.jpg");
@@ -33,6 +34,7 @@ body {
 }
 .cursive-font {
 	font-family: 'Nothing You Could Do', cursive;
+	text-align: left;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
@@ -89,6 +91,9 @@ p {
 .border-bottom {
 	border-bottom: 3px solid #3d2826;
 }
+.margin-bottom {
+	margin-bottom: 10px;
+}
 .white-bg {
 	background: rgba(255, 255, 255, 0.2);
 	-moz-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
@@ -102,16 +107,40 @@ img.white-bg {
 	-webkit-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 	box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 }
+
+/* STICKY FOOTER */
+html, body {
+        height: 100%;
+}
+#contain {
+	background-image: url("images/background_paper.jpg");
+	min-height: 100%;
+	max-width: 1142px;
+	padding: 0 0px 0px 0px;
+	margin: 0px auto 0px auto;
+}
+#wrap {
+    overflow:auto;
+    padding-bottom: 160px;
+}  /* must be same height as the footer */
+#footer {
+	position: relative;
+    margin-top: -160px; /* negative value of footer height */
+    height: 160px;
+    clear:both;
+}
+/* STICKY FOOTER */
+
 /* End Universal Styles */
 /* Background Styles */
 .header-bg {
 	background-image: url("images/background_paper_top.jpg");
 }
-.body-bg {
-	background-image: url("images/background_paper.jpg");
-}
 .footer-bg {
 	background-image: url("images/background_paper_bottom.jpg");
+}
+.under-footer {
+	background-image: url("images/background.jpg");
 }
 /*End Header Styles */
 /* Main Posts Styles */
@@ -121,7 +150,7 @@ img.white-bg {
 	margin: 0px auto 0px auto;
 }
 #content {
-	padding: 5% 5% 5% 5%;
+	padding: 3% 3% 3% 3%;
 	margin: 0px 40px 40px 40px;
 }
 #anchors {
@@ -216,6 +245,14 @@ img.white-bg {
 	border: 0px solid #777777; /*hide border */
 	}
 /* End Drop Down Styles */
+	.container-fluid {
+	max-width: 962px;
+	padding: 0 70px 0px 70px;
+	}
+	#content {
+	padding: 1% 1% 1% 1%;
+	margin: 0 0 30px 0;
+	}
 }
 @media (min-width: 768px) {
 }
@@ -225,20 +262,17 @@ img.white-bg {
 	padding: 0 0 0 0;
 	}
 	.container-fluid {
-		margin: 0 0 0 0;
-		padding: 0 0 0 0;
+	max-width: 842px;
+	padding: 0 10px 0px 10px;
 	}
-	.container-header {
-		margin: 0 0 0 0;
-		padding: 0 0 0 0;
-	}
-	.content {
-		margin: 0 0 0 0;
-	}
-	#footer {
-		margin: 0 0 0 0;
-		padding: 0 10px 0 10px;
-	}
+	/*center all images */
+	img.alignright {display: block; clear:both; float: none; margin-left: auto; margin-right: auto}
+	img.alignleft {display: block; clear:both; float: none; margin-left: auto; margin-right: auto}
+	img.aligncenter {display: block; clear:both; float: none; margin-left: auto; margin-right: auto}
+	a img.alignright {display: block; clear:both; float: none; margin-left: auto; margin-right: auto}
+	a img.alignleft {display: block; clear:both; float: none; margin-left: auto; margin-right: auto}
+	a img.aligncenter {display: block; clear:both; float: none; margin-left: auto; margin-right: auto}
+	img.white-bg {padding: 0px 0px 0px 0px; width: 100%; height: 100%}
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
