@@ -17,7 +17,7 @@
           <!-- Start The Loop -->
           <?php query_posts('category_name=events'); ?>
           <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-              <div id="content" class="white-bg">
+              <div id="content" class="white-bg margin-bottom">
                 <h1><?php the_title(); ?></h1>
                 <?php the_content() ?>
               </div><!--/content-->

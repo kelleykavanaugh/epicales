@@ -15,7 +15,7 @@
           <!-- Start The Loop -->
           <?php query_posts('category_name=news'); ?>
           <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-              <div id="content" class="white-bg">
+              <div id="content" class="white-bg margin-bottom">
                 <div id="<?php the_title_attribute(); ?>"></div>
                 <h1><?php the_title() ?></h1>
                 <div id="center" class="border-bottom">

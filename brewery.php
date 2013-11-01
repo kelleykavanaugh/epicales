@@ -13,7 +13,7 @@
       </div><!--/ .row -->
 
       <div class="row-fluid">
-        <div id="center" class="padding">
+        <div id="center">
             <?php query_posts('category_name=brewery'); ?>
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
           <div id="anchors" class="brown padding white-bg"> 
