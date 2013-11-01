@@ -13,38 +13,13 @@ Tags: responsive, bootstrap, 1 columns, black, white, red, simple, clean, sideba
 @import url('bootstrap/css/bootstrap-responsive.css');
 
 /* wordpress image styles */
-img.alignright {float:right; margin:0 0 0em 0em}
-img.alignleft {float:left; margin:0 0em 0em 0}
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
 img.aligncenter {display: block; margin-left: auto; margin-right: auto}
-a img.alignright {float:right; margin:0 0 0em 0em}
-a img.alignleft {float:left; margin:0 0em 0em 0}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
 a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 /* End wordpress image styles */
-
-/* wordpress caption styles */
-.wp-caption { position:relative }
-p.wp-caption-text { display:none; }
-.wp-caption:hover p.wp-caption-text {
-	font-size: 12pt;
-	line-height: 1.2em;
-	text-align: left;
-	color: #ffcc33;
-	display:block;
-	position:absolute;
-	bottom:-1px;
-	left:0px;
-	padding: 0 5% 5% 5%;
-	margin: 0 0 0 0;
-	width: 90%;
-	background: rgba(000, 000, 000, 0.1);
-}
-.wp-caption.alignleft {
-	float: left;
-	clear: none;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0;
-}
-/*End Wordpress caption Styles */
 
 /* Universal Styles */
 body { 
@@ -132,16 +107,40 @@ img.white-bg {
 	-webkit-box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 	box-shadow: 3px 4px 6px rgba(0, 0, 0, 0.05);
 }
+
+/* STICKY FOOTER */
+html, body {
+        height: 100%;
+}
+#contain {
+	background-image: url("images/background_paper.jpg");
+	min-height: 100%;
+	max-width: 1142px;
+	padding: 0 0px 0px 0px;
+	margin: 0px auto 0px auto;
+}
+#wrap {
+    overflow:auto;
+    padding-bottom: 160px;
+}  /* must be same height as the footer */
+#footer {
+	position: relative;
+    margin-top: -160px; /* negative value of footer height */
+    height: 160px;
+    clear:both;
+}
+/* STICKY FOOTER */
+
 /* End Universal Styles */
 /* Background Styles */
 .header-bg {
 	background-image: url("images/background_paper_top.jpg");
 }
-.body-bg {
-	background-image: url("images/background_paper.jpg");
-}
 .footer-bg {
 	background-image: url("images/background_paper_bottom.jpg");
+}
+.under-footer {
+	background-image: url("images/background.jpg");
 }
 /*End Header Styles */
 /* Main Posts Styles */

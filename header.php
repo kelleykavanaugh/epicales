@@ -20,6 +20,8 @@
     <?php wp_head(); ?>
   </head>
 <body>
+<div id="contain">
+  <div id="wrap">
     <div class="container-fluid header-bg">
       <div class="row-fluid">
         <div class="span12"> 
@@ -62,4 +64,4 @@
       </div><!--/row-->  
 
     </div><!--/ container-fluid-->
-    <div class="container-fluid body-bg">
+    <div class="container-fluid">
