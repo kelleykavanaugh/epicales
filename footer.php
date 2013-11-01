@@ -7,7 +7,7 @@
                     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer-widget') ) : ?>
                     <?php endif; ?>
                     <div class="row-fluid">
-                        <div id="center" class="span12">
+                        <div id="center" class="span12 red">
                             &copy; 2013 <strong><?php bloginfo('name'); ?>. All Rights Reserved.</strong>
                         </div><!--/ .span -->
                     </div><!--/ .row-fluid -->
