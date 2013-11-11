@@ -13,7 +13,9 @@ If you do, please:
 Some "features" of this theme (current version):
 
 ~ Powered with Bootstrap to be fully scalable!
+
 ~ Uses anchors and div jumps to turn wordpress posts into a single "jumpable" page.
+
 ~ Uses category queries to seperate posts onto different "static" Pages, enabling them to be dynamic.
 
 Please let me know if you use my Wordpress theme, or if you need help with anything on it! kelleykavanaugh@gmail.com
