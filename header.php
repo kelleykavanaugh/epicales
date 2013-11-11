@@ -32,7 +32,7 @@
         </div><!--/span-->
       </div><!--/row-->
 
-        <div class="pull-left">
+        <div>
           <a href="<?php echo get_option('home'); ?>/"><img src="<?php echo get_option('home'); ?>/wp-content/themes/epicales/images/epic-ales-logo.png"></a>
         </div>
 <!-- NAVBAR -->
@@ -45,7 +45,7 @@
           </a>
           <div class="nav-collapse collapse">
             <ul class="nav pull-right">
-            <?php wp_list_pages(array('title_li' => '', 'exclude' => 117)); ?>
+            <?php wp_list_pages(array('title_li' => '', 'exclude' => 2)); ?>
             </ul>
           </div><!--/.nav-collapse -->
         </div><!--/.navbar-inner -->
